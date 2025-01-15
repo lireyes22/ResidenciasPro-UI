@@ -1,6 +1,16 @@
 # residenciaspro-ui
 
+## Tracking
 <img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res1.png" />
+<img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res2.png" />
+<img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res3.png" />
+<img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res4.png" />
+<img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res5.png" />
+<img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res6.png" />
+<img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res7.png" />
+<img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res8.png" />
+<img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res9.png" />
+
 
 ## Recommended IDE Setup
 
