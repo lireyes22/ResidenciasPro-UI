@@ -9,7 +9,10 @@
 ## Revisión de Proyectos
 <img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res3.png" />
 
+## Proponer Proyecto
 <img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res4.png" />
+
+## Banco de Residencias Profesionales
 <img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res5.png" />
 <img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res6.png" />
 <img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res7.png" />
