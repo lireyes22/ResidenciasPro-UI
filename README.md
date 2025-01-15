@@ -1,29 +1,5 @@
 # residenciaspro-ui
 
-## Tracking
-<img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res1.png" />
-
-## Banco Proyectos
-<img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res2.png" />
-
-## Revisión de Proyectos
-<img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res3.png" />
-
-## Proponer Proyecto
-<img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res4.png" />
-
-## Banco de Residencias Profesionales
-<img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res5.png" />
-
-## Evaluación de Residencia
-<img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res6.png" />
-
-## Asignacion de Revisores
-<img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res7.png" />
-
-<img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res8.png" />
-
-<img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res9.png" />
 
 
 ## Recommended IDE Setup
@@ -61,3 +37,31 @@ npm run build
 ```sh
 npm run test:unit
 ```
+
+
+## Tracking
+<img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res1.png" />
+
+## Banco Proyectos
+<img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res2.png" />
+
+## Revisión de Proyectos
+<img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res3.png" />
+
+## Proponer Proyecto
+<img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res4.png" />
+
+## Banco de Residencias Profesionales
+<img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res5.png" />
+
+## Evaluación de Residencia
+<img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res6.png" />
+
+## Asignacion de Revisores
+<img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res7.png" />
+
+## Alumnos
+<img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res8.png" />
+
+##Usuarios
+<img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res9.png" />
