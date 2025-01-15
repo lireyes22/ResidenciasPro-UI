@@ -14,9 +14,15 @@
 
 ## Banco de Residencias Profesionales
 <img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res5.png" />
+
+## Evaluación de Residencia
 <img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res6.png" />
+
+## Asignacion de Revisores
 <img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res7.png" />
+
 <img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res8.png" />
+
 <img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res9.png" />
 
 
