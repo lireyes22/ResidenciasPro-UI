@@ -1,0 +1,972 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.tagPuesto{
+    border-radius: 30px; 
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.04), 0px 1px 2px 0px rgba(0, 0, 0, 0.06),
+}
+
+/* .tagPuesto:hover{
+    background-color: red;
+}
+ */
+.btnNextTutorial{
+    @apply btnConfirm bg-teal-700 hover:!bg-teal-800 active:!bg-teal-900;
+}
+
+.btnBackTutorial{
+    @apply btnConfirm bg-gray-600 hover:!bg-gray-500 active:!bg-gray-700;
+}
+
+.btnFinishTutorial{
+    @apply btnConfirm;
+}
+
+
+.opcionMenu{
+    @apply w-11/12 rounded-lg min-h-14 flex flex-row items-center justify-start shadow-lg transition duration-300 ease-in-out hover:bg-cyan-700;
+}
+
+
+/* Estilos para los selects*/
+.p-checkbox-box {
+    border-width: 1px;
+    @apply border-gray-300;
+}
+
+.p-multiselect-label-container, .p-select-label{
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px; 
+    @apply border-gray-400 rounded-l-lg;
+}
+
+.p-multiselect-dropdown, .p-select-dropdown{
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px; 
+    @apply border-gray-400 rounded-r-lg;
+
+}
+
+/* Sobrescribir el input dentro del contenedor */
+.p-multiselect-filter-container .p-inputtext {
+    border-width: 1px;
+    @apply rounded-lg p-2;  /* Aplica los bordes redondeados y el padding interno */
+}
+
+
+.p-inputtext {
+    border-width: 1px;
+    @apply rounded-lg p-2;  /* Aplica los bordes redondeados y el padding interno */
+}
+
+/* datepicker */
+.p-datepicker-fluid{
+    border: 1px solid;
+    @apply border-gray-400 rounded-lg bg-white;
+}
+
+.p-datepicker-input{
+    @apply border-0 shadow-none bg-white placeholder:text-gray-500;  /* Aplica los bordes redondeados y el padding interno */
+}
+.p-inputtext.p-datepicker-input{
+    @apply border-0 shadow-none; 
+}
+/*p-inputtext*/
+
+.p-inputtext{
+    border: 1px solid;
+    @apply border-gray-400 rounded-lg bg-white;
+}
+
+/* .p-multiselect-header{
+    @apply bg-red-400
+} */
+
+/*FIN Estilo para el menu*/
+
+
+
+/* Estilos para los Scroll */
+
+.scroll-tabla::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    /* Ancho de la barra de desplazamiento */
+}
+
+.scroll-tabla::-webkit-scrollbar-track {
+    background: #ffffff;
+    /* Color del fondo de la barra de desplazamiento */
+}
+
+.scroll-tabla::-webkit-scrollbar-thumb {
+    background: #e9e9e9;
+    /* Color del relleno de la barra de desplazamiento */
+    /* Radio de borde de la barra de desplazamiento */
+}
+
+.scroll-tabla::-webkit-scrollbar-thumb:hover {
+    @apply bg-color-3;
+    /* Color del relleno de la barra de desplazamiento al pasar el mouse */
+}
+
+
+
+
+.scroll-roles::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    /* Ancho de la barra de desplazamiento */
+}
+
+.scroll-roles::-webkit-scrollbar-track {
+    @apply bg-white;
+    /* Color del fondo de la barra de desplazamiento */
+}
+
+.scroll-roles::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    @apply bg-gray-300;
+    /* Color del relleno de la barra de desplazamiento */
+    /* Radio de borde de la barra de desplazamiento */
+}
+
+.scroll-roles::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-200;
+    /* Color del relleno de la barra de desplazamiento al pasar el mouse */
+}
+
+
+
+.scroll-TablaAdmin::-webkit-scrollbar {
+    width: 10px;
+    height: 12px;
+    /* Ancho de la barra de desplazamiento */
+}
+
+.scroll-TablaAdmin::-webkit-scrollbar-track {
+    @apply bg-white;
+    /* Color del fondo de la barra de desplazamiento */
+}
+
+.scroll-TablaAdmin::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    @apply bg-gray-300;
+    /* Color del relleno de la barra de desplazamiento */
+    /* Radio de borde de la barra de desplazamiento */
+}
+
+.scroll-TablaAdmin::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-200;
+    /* Color del relleno de la barra de desplazamiento al pasar el mouse */
+}
+
+
+
+
+.scroll-1::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    /* Ancho de la barra de desplazamiento */
+}
+
+.scroll-1::-webkit-scrollbar-track {
+    @apply bg-color-3;
+    /* Color del fondo de la barra de desplazamiento */
+}
+
+.scroll-1::-webkit-scrollbar-thumb {
+    background: white
+    /* Color del relleno de la barra de desplazamiento */
+    /* Radio de borde de la barra de desplazamiento */
+}
+
+.scroll-1::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-100
+    /* Color del relleno de la barra de desplazamiento al pasar el mouse */
+}
+
+
+
+
+
+.scroll-whiteTracking::-webkit-scrollbar {
+    width: 8px;
+    height: 6px;
+    /* Ancho de la barra de desplazamiento */
+}
+
+.scroll-whiteTracking::-webkit-scrollbar-track {
+    background: transparent;
+    /* Color del fondo de la barra de desplazamiento */
+}
+
+.scroll-whiteTracking::-webkit-scrollbar-thumb {
+    @apply bg-gray-300;
+    border-radius: 4px;
+    /* Color del relleno de la barra de desplazamiento */
+    /* Radio de borde de la barra de desplazamiento */
+}
+
+.scroll-whiteTracking::-webkit-scrollbar-thumb:hover {
+    background: gray;
+    /* Color del relleno de la barra de desplazamiento al pasar el mouse */
+}
+
+/* Estilos para los Scroll FIN */
+
+
+
+
+/* Estilo para las tablas INICIO*/
+
+.contenedorVistaTabla{
+    @apply flex flex-col p-8 w-full h-full sm:h-7/8  sm:w-11/12 xl:w-11/12 2xl:w-11/12 3xl:w-9/12  sm:rounded-2xl bg-white shadow-lg;
+}
+
+.btnProponerPTabla{
+    @apply flex flex-row items-center justify-center rounded-md bg-color-2 text-white shadow-md border-b-color-1 border-b-4 text-base transition-all duration-300;
+}
+
+.btnProponerPTabla:hover{
+    @apply scale-105 brightness-105;
+}
+
+.btnProponerPTabla:active{
+    @apply scale-95 brightness-90 border-none;
+}
+
+.btnProponerPTabla svg{
+    @apply w-6 h-6;
+}
+
+.tablaBuscador{
+    @apply border-b-gray-200 border-b-2  focus:outline-none focus:border-color-5 w-full truncate font-medium placeholder-cyan-700 text-sm md:text-base;
+}
+
+.contenedorTabla{
+    @apply w-full h-full overflow-auto scroll-tabla rounded-lg bg-gray-50;
+}
+
+.contenedorAvisoTabla{
+    @apply absolute z-10 flex items-center justify-center top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
+}
+
+.tabla{
+    @apply w-full min-w-220 rounded-lg;
+}
+
+.tablaHeader{
+    @apply bg-color-2 sticky z-10 top-0 max-h-20 min-h-16 flex flex-row text-white rounded-t-lg font-semibold items-center shadow-md text-sm 3xl:text-base;
+}
+
+.tablaRow{
+    @apply hover:bg-gray-200 flex flex-row w-full bg-gray-50;
+}
+
+
+.btnTablaRed{
+    @apply flex flex-row items-center justify-center rounded-md bg-red-700 text-white shadow-md
+}
+
+
+/* Estilo para las tablas FIN */
+
+
+/*Botones Inicio*/
+
+
+.btnTablaDetallesInfoP{
+    @apply flex flex-row items-center justify-center rounded-md bg-cyan-600 text-white shadow-md border-b-cyan-800 border-b-2 transition-all duration-300;
+}
+
+.btnTablaDetallesInfoP svg{
+    @apply w-6 h-6;
+}
+
+.btnTablaDetallesInfoP:hover {
+    @apply scale-105 brightness-105;
+}
+
+
+.btnTablaDetallesInfoP:active {
+    @apply scale-95 brightness-90 border-none;
+}
+
+.btnConfirm{
+    @apply flex flex-row items-center justify-center transition-all duration-300 shadow-sm;
+}
+
+.btnConfirm:hover {
+    @apply scale-105 brightness-110;
+}
+
+
+.btnConfirm:active {
+    @apply scale-100 brightness-90 ;
+}
+
+
+.btnReload{
+    @apply flex flex-row items-center justify-center rounded-full bg-slate-300 text-white shadow-md border-b-slate-500 border-b-2 transition-all duration-300;
+}
+
+.btnReload svg{
+    @apply w-6 h-6;
+}
+
+.btnReload:hover {
+    @apply scale-105 brightness-105;
+}
+
+
+.btnReload:active {
+    @apply scale-95 brightness-90 border-none;
+}
+
+
+
+
+
+.btnRedCancel {
+    @apply flex flex-row items-center justify-center rounded-md bg-red-600 text-white shadow-md border-b-red-800 border-b-2 transition-all duration-300;
+}
+
+.btnRedCancel:hover {
+    @apply scale-105 brightness-105;
+}
+
+
+.btnRedCancel:active {
+    @apply scale-95 brightness-90 border-none;
+}
+
+.btnRedCancel svg{
+    @apply w-7 h-7;
+}
+
+
+
+
+
+.btnGreenEnviarAceptar {
+    @apply flex flex-row items-center justify-center rounded-md bg-emerald-600 text-white shadow-md border-b-emerald-700 border-b-2 transition-all duration-300;
+}
+
+.btnGreenEnviarAceptar:hover {
+    @apply scale-105 brightness-105;
+}
+
+
+.btnGreenEnviarAceptar:active {
+    @apply scale-95 brightness-90 border-none;
+}
+
+.btnGreenEnviarAceptar svg{
+    @apply w-6 h-6;
+}
+
+
+.btnDesactivar {
+    @apply flex flex-row items-center justify-center rounded-md bg-gray-600 text-white shadow-md border-b-gray-700 border-b-2 transition-all duration-300;
+}
+
+.btnDesactivar:hover {
+    @apply scale-105 brightness-105;
+}
+
+
+.btnDesactivar:active {
+    @apply scale-95 brightness-90 border-none;
+}
+
+.btnDesactivar svg{
+    @apply w-6 h-6;
+}
+
+
+
+
+
+.btnYellowEditar {
+    @apply flex flex-row items-center justify-center rounded-md bg-yellow-500 text-white shadow-md border-b-yellow-700 border-b-2 transition-all duration-300;
+}
+
+.btnYellowEditar:hover {
+    @apply scale-105 brightness-105;
+}
+
+
+.btnYellowEditar:active {
+    @apply scale-95 brightness-90 border-none;
+}
+
+.btnYellowEditar svg{
+    @apply w-6 h-6;
+}
+
+
+
+
+.btnMorado {
+    @apply flex flex-row items-center justify-center rounded-md bg-violet-500 text-white shadow-md border-b-violet-700 border-b-2 transition-all duration-300;
+}
+
+.btnMorado:hover {
+    @apply scale-105 brightness-105;
+}
+
+
+.btnMorado:active {
+    @apply scale-95 brightness-90 border-none;
+}
+
+.btnMorado svg{
+    @apply w-6 h-6 fill-white;
+}
+
+
+
+
+.controlBtnTabla:hover p {
+    @apply block;
+}
+
+.controlBtnTabla:active p {
+    @apply block;
+}
+
+
+/*Botones Fin*/
+
+
+
+
+/* Forms Clases */
+
+.newContenedorForm{
+    @apply w-full h-full xl:w-11/12 3xl:w-10/12 3xl:h-5/6 md:p-8 bg-white rounded-lg min-w-80;
+}
+
+.contenedorFormulario{
+    @apply rounded-none sm:p-8 flex items-center justify-center h-full md:h-7/8 md:border md:rounded-2xl bg-white w-full md:w-11/12 xl:w-10/12 2xl:w-9/12 3xl:w-7/12 min-w-80;
+}
+
+.seccionNoSelected {
+    @apply w-full bg-color-2 h-full flex justify-center items-center shadow-inner cursor-pointer px-1;
+}
+
+.seccionSelected {
+    @apply w-full bg-color-3 h-full flex justify-center items-center px-1;
+}
+
+.seccionForm {
+    @apply w-full flex flex-col space-y-4 px-8 py-4 flex-grow;
+}
+
+.seccionForm2 {
+    @apply w-full flex flex-col space-y-4 p-8;
+}
+
+.filaSeccion {
+    @apply flex flex-row items-end w-full;
+}
+
+.filaSeccion2 {
+    @apply flex flex-row items-end w-full;
+}
+
+.filaSeccionResposive {
+    @apply flex flex-col md:flex-row items-end w-full;
+}
+
+.espacioDivDatos {
+    @apply space-x-6;
+}
+
+.espacioDivDatosResponsive {
+    @apply space-y-4 md:space-x-6 md:space-y-0;
+}
+
+.divDatos {
+    @apply flex flex-col h-full justify-between bg-white rounded-md shadow-lg px-3 py-2 border-b-4 space-y-3;
+    border-color: #8ba7b4;
+}
+
+.divDatos2 {
+    @apply flex flex-col h-full justify-center bg-white rounded-md shadow-lg px-3 py-2 border-b-4;
+    border-color: #8ba7b4;
+}
+
+.divDatos3 {
+    @apply flex flex-row h-full justify-center bg-white rounded-md shadow-lg px-3 py-2 border-b-4;
+    border-color: #8ba7b4;
+}
+
+.divSecciones {
+    @apply flex flex-col h-full justify-between bg-color-2 rounded-md shadow-lg px-3 py-2 border-b-4 space-y-3;
+}
+
+.dato {
+    @apply text-sm sm:text-base 3xl:text-lg text-black;
+}
+
+.informacion {
+    @apply text-sm sm:text-base 3xl:text-lg font-bold text-color-1 w-full text-wrap break-words;
+}
+
+.titulosSecciones {
+    @apply text-sm sm:text-base 3xl:text-lg font-bold text-white w-full text-wrap break-words;
+}
+
+.informacionExtensa {
+    @apply text-justify text-wrap break-words;
+}
+.inputFormPP {
+    @apply w-full focus:outline-none resize-none text-sm md:text-base 3xl:text-lg text-black;
+}
+
+/*Form Clases Fin*/
+
+
+
+
+/*  TRACKING PROPONER PROYECTO PROFESOR (BARRA DE PROGRESO)  */
+
+.step-item-PP {
+    @apply relative flex flex-col items-center justify-center w-full h-full;
+}
+
+/* Reglas CSS para las lineas */
+.step-item-PP:not(:first-child)::before {
+    @apply content-[''] absolute w-full h-[4px] right-2/4 top-1/2 transform -translate-y-1/2;
+}
+
+.step-item-PP.aceptar+.step-item-PP::before {
+    @apply bg-green-600;
+}
+
+.step-item-PP.revision+.step-item-PP::before {
+    @apply bg-yellow-400;
+}
+
+.step-item-PP.enviado+.step-item-PP::before {
+    @apply bg-sky-600;
+}
+
+.step-item-PP.rechazado+.step-item-PP::before {
+    @apply bg-red-600;
+}
+
+.step-item-PP.encurso+.step-item-PP::before {
+    @apply bg-purple-600;
+}
+
+.step-item-PP.oculto+.step-item-PP::before {
+    @apply bg-gray-700;
+}
+
+/* Reglas CSS para los nodos*/
+.step-pp {
+    @apply w-10 h-10 flex items-center justify-center z-10 relative rounded-full font-semibold text-white;
+}
+
+.aceptar .step-pp {
+    @apply bg-green-600;
+}
+
+.revision .step-pp {
+    @apply bg-yellow-400;
+}
+
+.enviado .step-pp {
+    @apply bg-sky-600;
+}
+
+.rechazado .step-pp {
+    @apply bg-red-600;
+}
+
+.encurso .step-pp {
+    @apply bg-purple-600;
+}
+
+.oculto .step-pp {
+    @apply bg-gray-900;
+}
+
+.enviado+.step-item-PP .step-pp {
+    width: 25px;
+    height: 25px;
+}
+
+.revision + .step-item-PP + .step-item-PP .step-pp {
+    width: 25px;
+    height: 25px;
+}
+
+/* Reglas CSS para los diferentes estados*/
+.status-name-PP {
+    @apply absolute top-14 p-1.5 text-center text-xs text-gray-600 rounded-xl uppercase bottom-auto font-bold;
+}
+
+.aceptar .status-name-PP {
+    @apply bg-green-600 text-white;
+}
+
+.enviado .status-name-PP {
+    @apply bg-sky-600 text-white;
+}
+
+.rechazado .status-name-PP {
+    @apply bg-red-600 text-white;
+}
+
+.encurso .status-name-PP {
+    @apply bg-purple-600 text-white;
+}
+
+.oculto .status-name-PP {
+    @apply bg-gray-700 text-white;
+}
+
+.enviado+.step-item-PP .status-name-PP {
+    @apply bg-slate-200 text-gray-600;
+}
+
+
+.revision .status-name-PP {
+    @apply bg-yellow-400 text-gray-500; /* Aplica estilos específicos al estado "En Revisión" */
+}
+
+.revision + .step-item-PP + .step-item-PP .status-name-PP {
+   @apply bg-slate-300  text-gray-600;
+}
+
+
+/*  TRACKING PROPONER PROYECTO PROFESOR (BARRA DE PROGRESO) FIN */
+
+
+
+
+/*  TRACKING POSTULACION PROYECTO ALUMNOS (BARRA DE PROGRESO)  */
+.step-item-PA {
+    @apply relative flex flex-col items-center justify-center w-full h-full;
+  }
+  
+  /* Reglas CSS para las lineas */
+  .step-item-PA:not(:first-child)::before {
+    @apply content-[''] bg-slate-300 absolute w-full h-[4px] right-2/4 top-1/2 transform -translate-y-1/2;
+  }
+  
+  .step-item-PA.aceptado+.step-item-PA::before {
+    @apply bg-green-600;
+  }
+  
+  .step-item-PA.enviado+.step-item-PA::before {
+    @apply bg-sky-600;
+  }
+
+  .step-item-PA.encurso+.step-item-PA::before {
+    @apply bg-purple-600;
+  }
+  
+  .step-item-PA.rechazado+.step-item-PA::before {
+    @apply bg-red-600;
+  }
+  
+  /* Reglas CSS para los nodos*/
+  .step-PA {
+    @apply w-10 h-10 flex items-center justify-center z-10 relative bg-slate-300 rounded-full font-semibold text-white;
+  }
+  
+  .aceptado .step-PA {
+    @apply bg-green-600;
+  }
+  
+  .enviado .step-PA {
+    @apply bg-sky-600;
+  }
+  
+  .encurso .step-PA {
+    @apply bg-purple-600;
+  }
+
+  .rechazado .step-PA {
+    @apply bg-red-600;
+  }
+  
+  .enviado+.step-item-PA .step-PA {
+    @apply  bg-slate-300;
+    width: 25px;
+    height: 25px;
+  }
+  
+  .enviado+.step-item-PA .status-name-PA {
+    @apply bg-slate-200 text-gray-600;
+  }
+  
+  /* Reglas CSS para los diferentes estados*/
+  .status-name-PA {
+    @apply absolute top-14 p-1.5 text-center text-xs text-gray-600 rounded-xl uppercase bottom-auto font-bold;
+  }
+  
+  .aceptado .status-name-PA {
+    @apply bg-green-600 text-white;
+  }
+  
+  .enviado .status-name-PA {
+    @apply bg-sky-600 text-white;
+  }
+  
+  .rechazado .status-name-PA {
+    @apply bg-red-600 text-white;
+  }
+
+  .encurso .status-name-PA {
+    @apply bg-purple-600 text-white;
+  }
+
+
+/*  TRACKING POSTULACION PROYECTO ALUMNOS (BARRA DE PROGRESO) FIN */
+
+
+
+
+/* ------------------TRACKING GENERAL-------------------*/
+
+.step-item-TG {
+    @apply relative flex flex-col items-center justify-center w-full h-10;
+  }
+  
+  /* Reglas CSS para las lineas */
+  .step-item-TG:not(:first-child)::before {
+    @apply content-[''] bg-slate-300 absolute w-full h-[4px] right-2/4 top-1/2 transform -translate-y-1/2;
+  }
+  
+  .step-item-TG.complete + .step-item-TG::before{
+    @apply bg-green-600;
+  }
+  
+  .step-item-TG.active + .step-item-TG::before{
+    @apply bg-sky-600;
+  }
+
+  .step-item-TG.yellow + .step-item-TG::before{
+    @apply bg-yellow-500;
+  }
+  
+  .step-item-TG.rejected + .step-item-TG::before {
+    @apply bg-red-600;
+  }
+  
+  /* Reglas CSS para los nodos*/
+  .step-TG {
+    @apply w-10 h-10 flex items-center justify-center z-10 relative rounded-full font-semibold text-white;
+  }
+  
+  .complete .step-TG {
+    @apply bg-green-600;
+  }
+  
+  .active .step-TG {
+    @apply bg-sky-600;
+  }
+  
+
+  .yellow .step-TG {
+    @apply bg-yellow-500;
+  }
+  
+  .rejected .step-TG {
+    @apply bg-red-600;
+  }
+  
+  .pending .step-TG {
+    @apply bg-slate-300;
+    width: 25px; 
+    height: 25px; 
+  }
+  
+  .step-name-TG {
+    @apply h-10 absolute bottom-8 text-center text-xs text-black uppercase mb-3 font-semibold;
+  }
+  
+  /* Reglas CSS para los diferentes estados*/
+  .status-name-TG {
+    @apply absolute p-1.5 top-16 text-center text-xs rounded-xl uppercase font-bold;
+  }
+  
+  .complete .status-name-TG {
+    @apply bg-green-600 text-white;
+  }
+  
+  .active .status-name-TG {
+    @apply bg-sky-600 text-white;
+  }
+
+  .yellow .status-name-TG {
+    @apply bg-yellow-500 text-white;
+  }
+  
+  .rejected .status-name-TG {
+    @apply bg-red-600 text-white;
+  }
+  
+  .pending .status-name-TG {
+    @apply bg-slate-200 text-gray-600;
+  }
+
+  
+/* ------------------TRACKING GENERAL FIN-------------------*/
+
+
+/*MODAL STYLE*/
+
+.fondoContainerModal {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*MODAL STYLE (FIN)_*/
+
+
+
+
+
+/*Spin de Carga Animado INICIO */
+
+.spinCarga svg{
+    @apply animate-spin w-36 h-36 fill-color-1;
+}
+
+/*Spin de Carga Animado FIN */
+
+
+
+
+/* (INICIO) ESTILOS DE TEXTOS*/
+.avisoTexto{
+    @apply text-xl font-semibold uppercase bg-color-3 text-gray-500 py-2 px-4 rounded-3xl text-center;
+}
+/* (FIN) ESTILOS DE TEXTOS*/
+
+
+
+
+
+
+
+
+/* TABLA DE PRIME VUE */
+
+.p-datatable {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.p-datatable-thead {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    @apply text-white h-16 text-sm rounded-lg;
+}
+
+
+.staticColum {
+    position: sticky;
+    right: 0;
+}
+
+
+.tablaPrimeVue div table tbody tr {
+    @apply bg-gray-50 text-sm;
+}
+
+
+
+.tablaPrimeVue table thead tr th {
+    @apply font-normal;
+}
+
+.tablaPrimeVue table thead tr th div {
+    @apply flex items-center justify-center text-center;
+}
+
+
+.tablaPrimeVue div table tbody tr:hover td {
+    @apply bg-gray-200;
+}
+
+
+.tablaPrimeVue table thead tr th:last-child {
+    @apply bg-color-2 z-30;
+}
+
+
+.tablaPrimeVue table thead tr th {
+    @apply text-white;
+}
+
+
+.tablaPrimeVue table thead tr th {
+    @apply bg-color-2;
+}
+
+
+.tablaPrimeVue table tbody tr td:last-child {
+    @apply bg-gray-50 z-10;
+    
+}
+
+.tablaPrimeVue thead {
+    @apply bg-color-2;
+}
+
+/* .tablaPrimeVue table thead tr th div {
+    @apply space-x-1;
+} */
+
+.tablaPrimeVue table thead tr th div span svg {
+    @apply h-4 w-4;
+}
+
+.tablaPrimeVue table tbody tr td {
+    @apply py-4;
+}
+
+.tablaPrimeVue div {
+    @apply scroll-tabla;
+}
+
+
+.tablaPrimeVue {
+    @apply rounded-lg bg-gray-50;
+}
+
+
+
+.p-dataview {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.p-dataview-content {
+    background-color: transparent;
+}
+
+
+.dataViewComponent div {
+    @apply bg-transparent;
+}
+
+.dataViewComponent div div {
+    @apply bg-transparent;
+}
