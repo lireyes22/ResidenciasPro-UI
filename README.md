@@ -2,10 +2,13 @@
 
 ## Tracking
 <img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res1.png" />
+
 ## Banco Proyectos
 <img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res2.png" />
+
 ## Revisión de Proyectos
 <img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res3.png" />
+
 <img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res4.png" />
 <img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res5.png" />
 <img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res6.png" />
