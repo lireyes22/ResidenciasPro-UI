@@ -1,6 +1,6 @@
 # residenciaspro-ui
 
-This template should help get you started developing with Vue 3 in Vite.
+<img src="https://raw.githubusercontent.com/lireyes22/images/refs/heads/main/res1.png" />
 
 ## Recommended IDE Setup
 
